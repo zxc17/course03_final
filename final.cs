@@ -4,10 +4,9 @@ class Final
 {
     public static void Main()
     {
-        // int size = 5;
-        // string[] array = new string[size];
-        // InputArray(array);
-        string[] array = ["zxcv", "zx", ""];
+        int size = 5;
+        string[] array = new string[size];
+        InputArray(array);
         PrintArray(array);
         string[] result = Select(array);
         PrintArray(result);
